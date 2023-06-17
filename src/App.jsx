@@ -1,7 +1,7 @@
 const App = () => {
   return (
     <div>
-      Nabil's Portfolio
+      Starter Template
     </div>
   )
 }
