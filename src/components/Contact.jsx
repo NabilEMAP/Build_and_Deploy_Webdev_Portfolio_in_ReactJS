@@ -33,8 +33,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_956f98f',
-        'template_6tv12xi',
+        import.meta.env.VITE_SERVICE,
+        import.meta.env.VITE_TEMPLATE,
         {
           from_name: form.name,
           to_name: "Nabil",
@@ -43,7 +43,7 @@ const Contact = () => {
           //to_email: "Nabil_EM@outlook.com",
           message: form.message,
         },
-        'LKNpuMfkxKqzl_aO5'
+        import.meta.env.VITE_API_KEY
       )
       .then(
         () => {
@@ -74,7 +74,7 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <h3 className={styles.sectionHeadText}>Contact</h3>
 
         <form
           ref={formRef}
