@@ -8,6 +8,7 @@ import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
 
 
+
 const Contact = () => {
   const formRef = useRef();
   const [form, setform] = useState({
@@ -17,9 +18,47 @@ const Contact = () => {
   });
   const [loading, setloading] = useState(false);
 
-  const handleChange = (e) => { }
+  const handleChange = (e) => {
+    const { name, value } = e.target;
 
-  const handleSubmit = (e) => { }
+    setform({ ...form, [name]: value })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setloading(true);
+    // Email Template: template_6tv12xi
+    // Gmail Service: service_956f98f
+    // public API Key: LKNpuMfkxKqzl_aO5
+    emailjs.send(
+      'service_956f98f',
+      'template_6tv12xi',
+      {
+        from_name: form.name,
+        to_name: 'Nabil',
+        from_email: form.email,
+        to_email: 'Nabil_EM@outlook.com',
+        message: form.message,
+      },
+      'LKNpuMfkxKqzl_aO5'
+    )
+      .then(() => {
+        setLoading(false);
+        alert('Thank you. I will get back to you as soon as possible.');
+
+        setform({
+          name: '',
+          email: '',
+          message: '',
+        })
+      }, (error) => {
+        setLoading(false);
+
+        console.log(error);
+
+        alert('Something went wrong.');
+      })
+  }
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
