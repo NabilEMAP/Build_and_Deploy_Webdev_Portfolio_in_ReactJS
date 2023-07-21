@@ -10,15 +10,15 @@ const Hero = () => {
         <div className="flex flex-col justify-center items-center mt-5">
           <div
             //className="w-5 h-5 rounded-full bg-[#915eff]"
-            className="w-5 h-5 rounded-full bg-[#5E6EFF]"
+            className="w-5 h-5 rounded-full bg-[#6E95FF]"
           />
-          <div className="w-1 sm:h-80 h-40 from-[#5E6EFF] bg-gradient-to-b" />
+          <div className="w-1 sm:h-80 h-40 from-[#6E95FF] bg-gradient-to-b" />
         </div>
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm
             <span
               //className="text-[#915eff]"
-              className="text-[#5E6EFF]"
+              className="text-[#6E95FF]"
             > Nabil</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>

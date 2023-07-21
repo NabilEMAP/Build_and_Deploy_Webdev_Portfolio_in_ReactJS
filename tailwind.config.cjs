@@ -13,9 +13,9 @@ module.exports = {
         //"white-100": "#F3F3F3",
         primary: "#000723",
         secondary: "#A6AEC3",
-        tertiary: "#000048",
-        "black-100": "#000037",
-        "black-200": "#00003E",
+        tertiary: "#121B35",
+        "black-100": "#0E162B",
+        "black-200": "#030B25",
         "white-100": "#F3F3F3",
       },
       boxShadow: {
