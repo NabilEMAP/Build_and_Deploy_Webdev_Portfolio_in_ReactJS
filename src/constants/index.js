@@ -24,6 +24,7 @@ import {
     threejs,
     mohamedazdad,
     azdineeljattari,
+    hichambouzian,
   } from "../assets";
   
   export const navLinks = [
@@ -181,11 +182,11 @@ import {
       name: "Hicham Bouzian",
       designation: "Student",
       company: "AP Hogeschool",
-      image: "hichambouzian",
+      image: hichambouzian,
     },
     {
       testimonial:
-        "The integration of social media and easy sharing options allowed me to connect with the content effortlessly and share it with my network.",
+        "Nabil's website is a fantastic blend of creativity, information, and interactivity. I highly recommend visiting the website to anyone seeking a delightful online experience. Kudos to Nabil for creating such an outstanding virtual haven!",
       name: "Azdine El Jattari",
       designation: "Projectconsultent ICT",
       company: "USG Professionals",

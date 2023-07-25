@@ -32,6 +32,7 @@ import speedboatracing from "./speedboatracing.png";
 
 import mohamedazdad from "./testimonials/mohamedazdad.png";
 import azdineeljattari from "./testimonials/azdineeljattari.png"
+import hichambouzian from "./testimonials/hichambouzian.png"
 
 export {
   logo,
@@ -63,4 +64,5 @@ export {
   speedboatracing,
   mohamedazdad,
   azdineeljattari,
+  hichambouzian,
 };
