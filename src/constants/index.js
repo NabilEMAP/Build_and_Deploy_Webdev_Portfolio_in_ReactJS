@@ -138,7 +138,7 @@ import {
     },
     {
       title: "Bachelor Applied Informatics",
-      company_name: "Karel de Grote Hogeschool",
+      company_name: "Karel de Grote University of Applied Sciences and Arts",
       icon: kdg,
       iconBg: "#000000",
       date: "2017 - 2018",
