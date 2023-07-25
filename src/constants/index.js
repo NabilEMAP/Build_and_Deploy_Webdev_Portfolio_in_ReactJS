@@ -125,7 +125,7 @@ import {
   const schoolexperiences = [
     {
       title: "Bachelor Applied Informatics",
-      company_name: "AP Hogeschool",
+      company_name: "Artesis Plantijn University College",
       icon: aphogeschool,
       iconBg: "#FFFFFF",
       date: "2018 - Present",
@@ -164,7 +164,7 @@ import {
     },
     {
       title: "Applied Informatics",
-      company_name: "Sint-Lodewijk Antwerpen",
+      company_name: "Secondary Education Sint-Lodewijk Antwerpen",
       icon: sintlodewijk,
       iconBg: "#FFFFFF",
       date: "2016 - 2017",
@@ -176,13 +176,13 @@ import {
     },
     {
       title: "Commerce",
-      company_name: "Sint-Lodewijk Antwerpen",
+      company_name: "Secondary Education Sint-Lodewijk Antwerpen",
       icon: sintlodewijk,
       iconBg: "#FFFFFF",
       date: "2015 - 2016",
       points: [
         "4th grade",
-        "Studying business IT and commerce",
+        "Studying Business IT and Commerce",
         "First time using Microsoft Small Basic (a programming language for transitioning from block-based coding to text-based coding)",
       ],
     },
