@@ -30,6 +30,9 @@ import moviecollection from "./moviecollection.png";
 import btpservice from "./btpservice.png";
 import speedboatracing from "./speedboatracing.png";
 
+import mohamedazdad from "./testimonials/mohamedazdad.png";
+import azdineeljattari from "./testimonials/azdineeljattari.png"
+
 export {
   logo,
   backend,
@@ -58,4 +61,6 @@ export {
   moviecollection,
   btpservice,
   speedboatracing,
+  mohamedazdad,
+  azdineeljattari,
 };

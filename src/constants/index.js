@@ -22,6 +22,8 @@ import {
     btpservice,
     speedboatracing,
     threejs,
+    mohamedazdad,
+    azdineeljattari,
   } from "../assets";
   
   export const navLinks = [
@@ -167,27 +169,27 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "The website is very informative and it looks great, well done! I was impressed with how well the website works and how easy it was to find the information I was looking for.",
+      name: "Mohamed Azdad",
+      designation: "Student",
+      company: "AP Hogeschool",
+      image: mohamedazdad,
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "The website's functionality is top-notch. It loaded quickly, and the responsive design made it equally accessible on both desktop and mobile devices.",
+      name: "Hicham Bouzian",
+      designation: "Student",
+      company: "AP Hogeschool",
+      image: "hichambouzian",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "The integration of social media and easy sharing options allowed me to connect with the content effortlessly and share it with my network.",
+      name: "Azdine El Jattari",
+      designation: "Projectconsultent ICT",
+      company: "USG Professionals",
+      image: azdineeljattari,
     },
   ];
   
