@@ -19,9 +19,9 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
-    jobit,
-    tripguide,
+    moviecollection,
+    btpservice,
+    speedboatracing,
     threejs,
   } from "../assets";
   
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: ".NET Developer",
       icon: creator,
     },
   ];
@@ -198,67 +198,75 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Movie Collection",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "This is a simple webapplication (for personal use) where we display, download and consult our movie collection.",
       tags: [
         {
-          name: "react",
+          name: "ASP.NET",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "MsSQL",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
-          color: "pink-text-gradient",
+          name: "EF Core",
+          color: "yellow-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: moviecollection,
+      source_code_link: "https://github.com/NabilEMAP/MovieCollection",
     },
     {
-      name: "Job IT",
+      name: "BTP Service",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "BTP (Boomkwekerij Taak Planner) also known as Arboriculture Task Planner is a software application or tool designed to help arborists, tree care professionals, or even homeowners plan and organize their arboricultural tasks more efficiently. ",
       tags: [
         {
-          name: "react",
+          name: "Angular",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Ionic",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ASP.NET",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MsSQL",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "EF Core",
+          color: "yellow-text-gradient",
+        },
+        {
+          name: "SCSS",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: btpservice,
+      source_code_link: "https://github.com/AP-IT-GH/22-23-ASP-22-23-asp-groep-l",
     },
     {
-      name: "Trip Guide",
+      name: "Speedboat Racing Game in VR",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Speedboat Racing Game is a game where you have to race against the AI trained boats using your VR Controllers as paddles. Your goal is to complete a sprint. A sprint is a type of circuit that contains no laps, where you have to get from the start to the finish line. In this race, the idea is to hit first against the AI trained boats.",
       tags: [
         {
-          name: "nextjs",
+          name: "C-Sharp",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+          name: "Unity3D",
+          color: "yellow-text-gradient",
+        },        
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: speedboatracing,
+      source_code_link: "https://github.com/AP-IT-GH/groepswerk-WhiteBeard",
     },
   ];
   
