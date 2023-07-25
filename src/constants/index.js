@@ -8,13 +8,12 @@ import {
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
+    csharp,
+    dotnet,
     meta,
     starbucks,
     tesla,
@@ -81,10 +80,6 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -105,12 +100,12 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "C#",
+      icon: csharp,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: ".NET",
+      icon: dotnet,
     },
   ];
   
