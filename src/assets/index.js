@@ -26,6 +26,11 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import aphogeschool from "./school/aphogeschool.png";
+import kdg from "./school/kdg.png";
+import sintlodewijk from "./school/sintlodewijkantwerpen.png";
+import companysolutions from "./school/companysolutions.png";
+
 import moviecollection from "./moviecollection.png";
 import btpservice from "./btpservice.png";
 import speedboatracing from "./speedboatracing.png";
@@ -65,4 +70,8 @@ export {
   mohamedazdad,
   azdineeljattari,
   hichambouzian,
+  aphogeschool,
+  kdg,
+  sintlodewijk,
+  companysolutions,
 };

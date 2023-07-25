@@ -18,6 +18,10 @@ import {
     starbucks,
     tesla,
     shopify,
+    aphogeschool,
+    kdg,
+    sintlodewijk,
+    companysolutions,
     moviecollection,
     btpservice,
     speedboatracing,
@@ -33,6 +37,10 @@ import {
       title: "About",
     },
     {
+      id: "school",
+      title: "School",
+    },
+    {
       id: "work",
       title: "Work",
     },
@@ -44,7 +52,7 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
@@ -109,6 +117,72 @@ import {
     {
       name: ".NET",
       icon: dotnet,
+    },
+  ];
+
+  const schoolexperiences = [
+    {
+      title: "Bachelor Applied Informatics",
+      company_name: "AP Hogeschool",
+      icon: aphogeschool,
+      iconBg: "#FFFFFF",
+      date: "2018 - Present",
+      points: [
+        "Major .NET",
+        "I learned about Programming languages such as Java, React, Angular, .NET Framework, SpringBoot, MongoDB, MsSQL and more,",
+        "User Interface such as Classdiagrams, Sequencediagrams, DataFlow-diagrams and more, ",
+        "Classes about Unity3D, Design Patterns, Software Security & Testing, Database Administration, Normalization and Software Engineering"
+      ],
+    },
+    {
+      title: "Bachelor Applied Informatics",
+      company_name: "Karel de Grote Hogeschool",
+      icon: kdg,
+      iconBg: "#000000",
+      date: "2017 - 2018",
+      points: [
+        "I learned about the first practices in Object Oriented Programming,",
+        "First time learning about HTML5&CSS3 and JavaScript,",
+        "Classes about UML, Databases, Java and JavaFX, Networking with Cisco Packet Tracer and,",
+        "User Interfaces & Design using AdobeXD and Wireframe.cc",
+      ],
+    },
+    {
+      title: "Internship: Software Maintenance",
+      company_name: "Company Solutions",
+      icon: companysolutions,
+      iconBg: "#FFFFFF",
+      date: "2016 - 2017",
+      points: [
+        "Tasks and responsibilities in:",
+        "Installing Care-Ace software and helpful extensions on numerous tablets",
+        "Maintain network management at various customers",
+        "Maintain cash register systems at various customers",
+      ],
+    },
+    {
+      title: "Applied Informatics",
+      company_name: "Sint-Lodewijk Antwerpen",
+      icon: sintlodewijk,
+      iconBg: "#FFFFFF",
+      date: "2016 - 2017",
+      points: [
+        "5th & 6th grade",
+        "My first time studying Applied Informatics starting in 2016",
+        "First time using Visual Studio, learning with ConsoleApplication, WinForms and Webapplications",
+      ],
+    },
+    {
+      title: "Commerce",
+      company_name: "Sint-Lodewijk Antwerpen",
+      icon: sintlodewijk,
+      iconBg: "#FFFFFF",
+      date: "2015 - 2016",
+      points: [
+        "4th grade",
+        "Studying business IT and commerce",
+        "First time using Microsoft Small Basic (a programming language for transitioning from block-based coding to text-based coding)",
+      ],
     },
   ];
   
@@ -268,4 +342,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, schoolexperiences, experiences, testimonials, projects };
