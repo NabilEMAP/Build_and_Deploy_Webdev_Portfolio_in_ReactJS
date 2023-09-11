@@ -130,7 +130,7 @@ import {
       iconBg: "#FFFFFF",
       date: "2018 - Present",
       points: [
-        "Major .NET",
+        "Minor .NET",
         "I learned about Programming languages such as Java, React, Angular, .NET Framework, SpringBoot, MongoDB, MsSQL and more,",
         "User Interface such as Classdiagrams, Sequencediagrams, DataFlow-diagrams and more, ",
         "Classes about Unity3D, Design Patterns, Software Security & Testing, Database Administration, Normalization and Software Engineering"
