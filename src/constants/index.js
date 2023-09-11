@@ -128,7 +128,7 @@ import {
       company_name: "Artesis Plantijn University College",
       icon: aphogeschool,
       iconBg: "#FFFFFF",
-      date: "2018 - Present",
+      date: "2018 - 2023",
       points: [
         "Minor .NET",
         "I learned about Programming languages such as Java, React, Angular, .NET Framework, SpringBoot, MongoDB, MsSQL and more,",
