@@ -33,8 +33,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_SERVICE,
-        import.meta.env.VITE_TEMPLATE,
+        "service_smlala",
+        "template_jt7uvig",
         {
           from_name: form.name,
           to_name: "Nabil",
@@ -43,7 +43,7 @@ const Contact = () => {
           //to_email: "Nabil_EM@outlook.com",
           message: form.message,
         },
-        import.meta.env.VITE_API_KEY
+        "7nlofrUSteG9YG5Gz"
       )
       .then(
         () => {
